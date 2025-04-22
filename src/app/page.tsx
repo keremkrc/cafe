@@ -5,7 +5,7 @@ import { motion } from "framer-motion";
 
 export default function Home() {
   return (
-    <div className="min-h-screen bg-white">
+    <div className="min-h-screen bg-emerald-50">
       {/* Hero Section */}
       <section className="relative h-[80vh] flex items-center justify-center">
         <div className="absolute inset-0 z-0">
