@@ -13,8 +13,10 @@ export default function Home() {
             src="/images/cafe-interior.jpg"
             alt="Cafe Interior"
             fill
-            className="object-cover"
+            className="object-cover brightness-75 transition-all duration-300 hover:brightness-90"
             priority
+            sizes="100vw"
+            quality={90}
           />
           <div className="absolute inset-0 bg-black/40" />
         </div>
